@@ -1,0 +1,296 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    padding: 1%;
+}
+
+nav > ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+nav li{
+    padding: 0.5em 0.5em;
+}
+
+nav a{
+    text-decoration: none;
+    color: darkgrey;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+}
+
+.logo > p{
+    display: inline;
+    font-weight: bold;
+    color: #3c3b3d;
+}
+
+.logo > span{
+    font-weight: medium;
+    color: #8e8e8e;
+}
+.container{
+    background-color: #8e8e8e;
+    display: flex;
+    padding: 5% 3%;
+}
+
+
+.container button{
+    background-color:white;
+    width: 100%;
+    height: 3rem;
+    cursor: pointer;
+    color: white;
+}
+
+.left img{
+    width: 85%;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 1%;
+    padding: 0 2%;
+}
+.rignt h1{
+    font-size: 50px;
+}
+
+.right > h1, h4 {
+    padding: 5%;
+    color: #3c3b3d;
+}
+
+.right a {
+    color: white;
+    text-decoration: none;
+}
+
+/*News Section*/
+.banner-container {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    color: #3c3b3d;
+}
+.banner-left {
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+}
+
+.banner-left img {
+    width: 100%;
+}
+
+.banner-left-info {
+    padding-bottom: 2%;
+}
+
+.banner-left-info h2,p {
+    padding: 2%;
+}
+
+.banner-left-info p {
+    font-size: 80%;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+}
+
+.right img {
+    width: 10rem;
+}
+
+.right h4 {
+    font-size: 140%;
+}
+
+.right button{
+    background: none;
+    border: 0;
+}
+
+.right a{
+    text-decoration: none;
+}
+
+.application, .campus, .guest {
+    display: flex;
+    border: 1px solid #8e8e8e;
+    padding: 2%;
+}
+
+.application-info, .campus-info, .guest-info {
+   padding: 0 5%; 
+   margin-top: 4%;
+   font-size: 80%;
+}
+
+.application-info > *, .campus-info > *, .guest-info > * {
+    padding: 2% 0;
+ }
+
+.guest {
+    background-color: #8e8e8e;
+    margin: 0 0 2% 0;
+}
+/*application-left-mobile, .campus-left-mobile, .guest-left-mobile {
+    display: none;
+}*/
+
+/*Start learning Section*/
+.c1-container{
+    background-color: #8e8e8e;
+    padding: 2% 5% 8% 5%;
+}
+
+.c1-container > h1 {
+    text-align: center;
+    color: #3c3b3d;
+    padding: 4%;
+}
+.c1-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2%;
+}
+
+.c1-grid img {
+    width: 100%;
+}
+.c1-grid > *{
+    display: flex;
+    flex-direction: column;
+}
+.c1-info {
+    background-color: white;
+    padding: 5%;
+}
+
+.c1-info > * {
+    padding: 3% 0;
+}
+
+.c1-info > p {
+    font-size: small;
+    color: #8e8e8e;
+}
+
+
+
+.thesis-container > h1 {
+    color: #3c3b3d;
+    text-align: center;
+    padding: 5%;
+}
+
+.thesis-grid {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+}
+
+
+/**** Urban container ****/
+.urban-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 3%;
+}
+
+.urban-video > video {
+    width: 100%;
+}
+
+.urban-info {
+    padding: 1% 0 5% 0;
+}
+
+.urban-info > * {
+    padding: 1% 0;
+}
+
+.urban-info > p {
+    font-size: small;
+    color: #3c3b3d;
+}
+
+/**** Other thesis container ****/
+.other-thesis-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.other-thesis-container img {
+    width: 10rem;
+}
+
+.other-thesis-container p{
+    font-size: small;
+    color: #3c3b3d;
+}
+
+.fisma, .now-and-then {
+    display: flex;
+    padding: 5%;
+}
+
+.fisma {
+    background-color: #8e8e8e;
+}
+
+.fisma-info, .nt-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fisma-info > *, .nt-info>* {
+    padding: 1%;
+    margin: 5% 8%;
+}
+
+/*Footer*/
+footer > * {
+    font-size:small;
+    color: #3c3b3d;
+    margin-top: 0;
+    padding-top: 0.5%;
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+}
+
+footer a {
+    text-decoration: none;
+    color: #3c3b3d;
+}
+
+footer li {
+    text-align: right;
+    padding: 0 1em;
+}
+
+
+
+
